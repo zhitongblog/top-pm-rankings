@@ -1,0 +1,33 @@
+name: 🥊 Challenge a score · 来吵分数
+description: Argue that a score or ranking is wrong · 认为某个分数/排名不对？吵赢了就改
+title: "[Score] "
+labels: [score-challenge]
+body:
+  - type: input
+    id: who
+    attributes:
+      label: Whose score? · 谁的分
+      placeholder: e.g. Steve Jobs / 张小龙
+    validations:
+      required: true
+  - type: input
+    id: dimension
+    attributes:
+      label: Which attribute? · 哪个维度
+      description: VIS / INS / TST / BIZ / SCL / ORG, or overall ranking · 或整体排名
+    validations:
+      required: true
+  - type: input
+    id: proposed
+    attributes:
+      label: Current → proposed · 现分 → 你主张的分
+      placeholder: "e.g. BIZ 92 → 96"
+    validations:
+      required: true
+  - type: textarea
+    id: argument
+    attributes:
+      label: Your argument · 论据
+      description: Product decisions and public facts only — we judge decisions, not people. · 只谈产品决策与公开事实，评产品不评人身。
+    validations:
+      required: true

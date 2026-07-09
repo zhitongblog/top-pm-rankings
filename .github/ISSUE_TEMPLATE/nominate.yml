@@ -1,0 +1,42 @@
+name: 🙋 Nominate a candidate · 提名候选人
+description: Propose someone for the Top 100 board · 提名一位你认为该上榜的产品经理
+title: "[Nominate] "
+labels: [nomination]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name · 姓名
+      placeholder: e.g. Satya Nadella / 王坚
+    validations:
+      required: true
+  - type: input
+    id: products
+    attributes:
+      label: Company & products · 公司与代表作
+      placeholder: e.g. Microsoft · Azure / 阿里云
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do they belong on the board? · 上榜理由
+      description: What great COMMERCIAL product did they create or invent? What product decisions were theirs? Cite public facts. · 他/她在商业领域创造了什么伟大产品？哪些关键产品决策出自本人？请给出公开事实。
+    validations:
+      required: true
+  - type: textarea
+    id: scores
+    attributes:
+      label: Suggested scores (optional) · 建议分数（可选）
+      description: "VIS / INS / TST / BIZ / SCL / ORG, each 0-99. Weights: 20/15/10/15/20/20."
+      placeholder: "VIS 90 · INS 85 · TST 80 · BIZ 92 · SCL 88 · ORG 84"
+  - type: input
+    id: replace
+    attributes:
+      label: Who should they replace? · 建议换下谁
+      description: The board holds exactly 99 + 1 reserved seat. Someone in means someone out. · 榜单只有 99 席，有人上就有人下。
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources · 资料来源
+      placeholder: Links to articles, books, interviews...
