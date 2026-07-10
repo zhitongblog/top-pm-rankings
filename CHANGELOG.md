@@ -4,6 +4,7 @@ Board changes, in reverse chronological order. Scores live in the single source 
 
 ## 2026-07-10
 - Deep-dive links now appear inline in the board (`[→]` after the reason) for entries whose full article is published.
+- **No. 4 · Sam Altman** deep-dive published: [His Real Product Was Never ChatGPT — It's OpenAI Itself](https://doaipm.com/en/blog/altman-the-company-is-the-product/). Dissects all six attributes; his lowest is Taste (87), which is exactly why he paid $6.4B for Jony Ive.
 - **No. 1 · Steve Jobs** deep-dive published: [Steve Jobs — The Only 99 Went to a Man Who Never Wrote Code](https://doaipm.com/en/blog/steve-jobs-the-only-99/). Walks through all six attributes (why VIS is 99, why INS lost a point to Ping/MobileMe, the tuition behind BIZ 97).
 
 ## 2026-07-09
