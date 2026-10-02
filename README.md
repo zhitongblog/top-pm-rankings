@@ -30,6 +30,7 @@ Only people who created or invented great **commercial** products qualify — ti
 - 🥊 **[Challenge a score](../../issues/new?template=challenge-score.yml)** — tell us which number is wrong and why
 - 🙋 **[Nominate a candidate](../../issues/new?template=nominate.yml)** — who's missing from the 100?
 - 💬 **[Discussions](../../discussions)** — everything else: ordering, criteria, hot takes
+- 🛠 **[ai-pm-playbook](https://github.com/zhitongblog/ai-pm-playbook)**: the community for PMs who ship with AI (method, templates, prompts, cases). Rankings talk is welcome in its [Discussions](https://github.com/zhitongblog/ai-pm-playbook/discussions) too
 
 Accepted changes land in the single source of truth (`pmRankings.ts` on doaipm.com), and this repo's board files are regenerated from it.
 
